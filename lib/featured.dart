@@ -82,7 +82,7 @@ class _FeaturedPageState extends State<FeaturedPage> {
                             onTap: (){
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(builder: (context) => const DetailPage()),
+                                MaterialPageRoute(builder: (context) =>  const DetailPage()),
                               );
                             },
                             child: Container(
